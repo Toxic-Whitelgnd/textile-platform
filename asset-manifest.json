@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/textile-platform/static/css/main.011b1dc5.css",
+    "main.js": "/textile-platform/static/js/main.00c292be.js",
+    "static/js/787.d48fb3c1.chunk.js": "/textile-platform/static/js/787.d48fb3c1.chunk.js",
+    "static/media/easy-order.jpeg": "/textile-platform/static/media/easy-order.4cce6f775ecdf4158a52.jpeg",
+    "static/media/megumi-silky.jpg": "/textile-platform/static/media/megumi-silky.3064d97ef19f750e641c.jpg",
+    "static/media/homeimg.png": "/textile-platform/static/media/homeimg.73522f2b14e69d95a75f.png",
+    "static/media/raw-cotton.jpeg": "/textile-platform/static/media/raw-cotton.f439ec7c5c26158a08b6.jpeg",
+    "static/media/fabric-rolls.jpeg": "/textile-platform/static/media/fabric-rolls.854cee367992cffcf846.jpeg",
+    "static/media/abtus.jpg": "/textile-platform/static/media/abtus.27bc82c864798c40d51c.jpg",
+    "static/media/plain-white-satin-grey-fabric.jpg": "/textile-platform/static/media/plain-white-satin-grey-fabric.938cd69e0464f23c47a9.jpg",
+    "static/media/plain-polyster.jpg": "/textile-platform/static/media/plain-polyster.7e3fdadbbab19a3198c5.jpg",
+    "static/media/homeabtus.jpg": "/textile-platform/static/media/homeabtus.f1d6bf87108570076025.jpg",
+    "static/media/cotton-satin-fabric.jpg": "/textile-platform/static/media/cotton-satin-fabric.704f57a4efaaed2698d6.jpg",
+    "static/media/fast-delivery.jpg": "/textile-platform/static/media/fast-delivery.e6dd5d5794e75e41c1d7.jpg",
+    "static/media/logo.svg": "/textile-platform/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/textile-platform/index.html",
+    "main.011b1dc5.css.map": "/textile-platform/static/css/main.011b1dc5.css.map",
+    "main.00c292be.js.map": "/textile-platform/static/js/main.00c292be.js.map",
+    "787.d48fb3c1.chunk.js.map": "/textile-platform/static/js/787.d48fb3c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.011b1dc5.css",
+    "static/js/main.00c292be.js"
+  ]
+}
