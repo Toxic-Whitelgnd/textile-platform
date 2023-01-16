@@ -5,9 +5,9 @@ import {Link, NavLink} from "react-router-dom";
 
 const HomeProducts = () => {
     return (
-        <div className='bg-[#ececec] p-3'>
+        <div className='bg-[#ececec] p-3 shadow-md'>
             <h1>Products</h1>
-            <div className="grid grid grid-cols-2 gap-2">
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-2">
                 <div className="text-left">
                     <h4>Fabric-Rolls</h4>
                     <p className='mt-10'>
@@ -31,7 +31,7 @@ const HomeProducts = () => {
                     <img src={img3} alt="fraw" width='356' height='100'  />
                 </div>
             </div>
-            <div>
+            <div className='mt-4'>
             <NavLink
                 key="prodcts"
                 to="/Products"

@@ -4,9 +4,9 @@ import {Link, NavLink} from "react-router-dom";
 
 const HomeAboutus = () => {
     return (
-        <div className='bg-[#ececec] p-3'>
+        <div className='bg-[#ececec] p-3 shadow-md'>
             <h1>About US</h1>
-            <div className='grid grid-cols-2 gap-2'>
+            <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-2'>
             <div className="flex justify-center">
                     <img src={img1} alt="fabric-rolls" width={406} height={186} />
                     </div>

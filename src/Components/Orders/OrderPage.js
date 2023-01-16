@@ -1,9 +1,7 @@
 import axios from 'axios';
-import React,{useState} from 'react';
-import {toast} from 'react-toastify';
+import React,{useState,useEffect} from 'react';
+import { toast} from 'react-hot-toast';
  
-// Import toastify css file
-import 'react-toastify/dist/ReactToastify.css';
 
 // gs
 // https://script.google.com/macros/s/AKfycbxGdek8ic-uZbldHWG8SgimSfhACKNTq5KAflMh4BGBivrbmGaT0fuC4mMJfkqwtxU/exec
@@ -81,7 +79,7 @@ const OrderPage = () => {
             console.log(response)
 
             if(response.status === '200'){
-                toast("Ordered SucessFully")
+                toast('Here is your toast.');
             }
 
             // clearing
@@ -96,14 +94,25 @@ const OrderPage = () => {
             setPrice('')
             setPhoneno('')
             setEmail('')
+
+            toast.success('Ordered Successfully.');
         }
             
         )
     }
 
+    const scrollUp = () => {
+        window.scroll(0, 0);
+        };
+    
+        useEffect(() => {
+            scrollUp();
+            // scrolltoview();
+        }, []);
+
     return (
         <div>
-            <div className="p-4 flex justify-center bg-[#f6f6f6]">
+            <div className="p-4 flex justify-center bg-[#f6f6f6] shadow-md">
             <form class="w-full max-w-lg" onSubmit={handleSumbit}>
         <div class="flex flex-wrap -mx-3 mb-6">
             <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">

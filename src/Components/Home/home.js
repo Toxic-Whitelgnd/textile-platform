@@ -17,7 +17,7 @@ const Home = () => {
             </h1>
             <div className=" subtitle pt-5">
             <p>
-              <span class="badge ">
+              <span className="text-slate-600">
                 Life's too short for bad software.
               </span>{" "}
               We're constantly using, reviewing and comparing all tools on the

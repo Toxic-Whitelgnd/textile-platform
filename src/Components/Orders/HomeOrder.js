@@ -5,9 +5,9 @@ import {Link, NavLink} from "react-router-dom";
 
 const HomeOrder = () => {
     return (
-        <div className='bg-[#ececec] p-3'>
+        <div className='bg-[#ececec] p-3 shadow-md'>
             <h1>Order</h1>
-            <div className='grid grid-cols-2 gap-2'>
+            <div className='grid   md:grid-cols-2 gap-2 sm:grid-cols-1'>
             <div className="text-left">
                     <h4>Easily-Orderable</h4>
                     <p className='mt-10 flex flex-wrap'>

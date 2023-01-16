@@ -8,20 +8,26 @@ import Home from './Components/Home/home';
 import Footer from './Components/Footer/footer';
 import AvailbleProducts from './Components/Products/AvailbleProducts';
 import OrderPage from './Components/Orders/OrderPage';
+import AboutusPage from './Components/AboutUs/AboutusPage';
+import {Toaster} from 'react-hot-toast'
+
 
 function App() {
   return (
     <>
       <Router>
           <Navbar/>
+       
         <Routes>
           <Route path='/' index element={<Home />}/>
           <Route  path='/Products' element={<AvailbleProducts/>} />
           <Route  path='/Order' element={<OrderPage/>} />
-          {/* <Route path='/Aboutus' element={<ReviewPages />} /> */}
+          <Route path='/Aboutus' element={<AboutusPage />} />
+         
         </Routes>
         <Footer/>
       </Router>
+      <Toaster />
     </>
   );
 }
